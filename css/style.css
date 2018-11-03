@@ -113,7 +113,7 @@ footer p{
         margin-top: 5px;
     }
     .content .text{
-        display: none;
+        font-size: 25px;
     }
     .grid-3,
     .grid-2 {
@@ -126,9 +126,11 @@ footer p{
 }
 /* Landscape*/
 @media(max-width: 560px){
-    .content .title,
+    .content .title{
+        font-size: 25px;
+    }
     .content .text{
-        display: none;
+        font-size: 15px;
     }
     .content{
         top: 5%;
