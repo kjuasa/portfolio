@@ -4,6 +4,17 @@ body{
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+a:link{
+    /* Applies to all unvisited links */
+    text-decoration:  none;
+} 
+a:visited {
+    /* Applies to all visited links */
+    text-decoration:  none;
+    color: white;
+} 
+
 .showcase::after{
     content:'';
     height: 100vh;
@@ -39,16 +50,13 @@ body{
 }
 .contact{
     color: white;
+    transition: transform .10s;
 }
-a:link{
-    /* Applies to all unvisited links */
-    text-decoration:  none;
-} 
-a:visited {
-    /* Applies to all visited links */
-    text-decoration:  none;
-    color: white;
-} 
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
 .content .logo{
 
 }
